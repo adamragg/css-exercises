@@ -31,10 +31,7 @@ input {
   text-align: center;
   display: flex;
   flex-direction: column;
-}
-
-* {
-  list-style-type: none;
+  height: 100vh;
 }
 
 .footer,
@@ -51,9 +48,11 @@ input {
 
 .right-links,
 .left-links {
+  list-style-type: none;
   display: flex;
   gap: 10px;
   padding: 10px;
+  margin: 0px;
 }
 
 button {
