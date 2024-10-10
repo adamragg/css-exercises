@@ -28,10 +28,10 @@ input {
 /* Changed */
 
 .container {
+  height: 100vh;
   text-align: center;
   display: flex;
   flex-direction: column;
-  height: 100vh;
 }
 
 .footer,
@@ -60,8 +60,17 @@ button {
   margin: 20px 0px;
 }
 
+.content {
+  justify-content: center;
+  align-items: center;
+}
+
 a:visited,
 a:link {
   text-decoration: none;
   color: #818181;
+}
+
+.content {
+  margin: auto;
 }
